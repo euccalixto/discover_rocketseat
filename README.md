@@ -1,4 +1,4 @@
-<h1 align="center"> DevLinks Discover Minha Versão</h1>
+<h1 align="center"> DevLinks Discover</h1>
 
 <p align="center">
 Programa exclusivo e gratuito na qual completei, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://github.com/euccalixto/discover_rocketseat/)
+- [Acesse o projeto finalizado, online](https://euccalixto.github.io/discover_rocketseat/)
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
