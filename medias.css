@@ -1,0 +1,39 @@
+@media (min-width:700px){
+	:root.dark-theme body{
+		--body-background: url('./assets/bg-desktop.jpg');
+	}
+
+	:root.light-theme body{
+		--body-background: url('./assets/bg-desktop-light.jpg');
+		
+	}
+}
+
+@keyframes left-to-right{
+	
+	from{
+		left:0%;
+	}
+	to{
+		left:50%;
+	}
+}
+
+@keyframes right-to-left{
+	from{
+		left:50%;
+	}
+	to{
+		left:0%;
+	}
+}
+
+.light-theme.active button{
+	display:var(--btn-light);
+	animation: left-to-right  1s forwards;
+}
+
+.dark-theme.active button{
+	display:var(--btn-light);
+	animation: right-to-left 1s forwards;
+}

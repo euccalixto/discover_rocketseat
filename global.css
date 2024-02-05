@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+HTML{
+	font-size: calc(13px * 90 / 100);
+	
+}
+
+p,a{
+	line-height:1.846rem;
+}

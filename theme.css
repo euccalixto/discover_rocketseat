@@ -1,0 +1,43 @@
+:root.dark-theme {
+	--body-background: url('./assets/bg-mobile.jpg');
+	--btn-background:url('./assets/moon-stars.svg');
+	--links-background: #fff1;
+	--links-border: #fff5;
+	--btn-light:none;
+	--btn-dark:auto;
+	--linkspecial-links:#0f0;
+	--imgprofile-border:#fff1;
+	--hover-th: #fff5;
+	--hover-bglinks:#fff5;
+	--hover-social:#fff5;
+}
+
+:root.light-theme {
+	--body-background: url('./assets/bg-mobile-light.jpg');
+	--btn-background:url('./assets/sun.svg');
+	--links-background: #0001;
+	--links-border: #0005;
+	--btn-dark:none;
+	--btn-light:auto;
+	--linkspecial-links:#090;
+	--imgprofile-border:#0001;
+	--hover-th: #0002;
+	--hover-bglinks:#0002;
+	--hover-social:#0002;
+}
+
+:root.dark-theme body *{
+	color: #fff;
+}
+
+:root.light-theme body *{
+	color: #000;
+}
+
+:root.dark-theme button {
+	left:0;
+}
+
+:root.light-theme button{
+	left:50%;
+}
